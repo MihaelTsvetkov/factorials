@@ -87,7 +87,7 @@ def parallel_method(n, num_processes):
     for res in results:
         final_result *= res
 
-    return final_result
+    return f'factorial {n}! = {final_result}\n'
 
 
 if __name__ == "__main__":
